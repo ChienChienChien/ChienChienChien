@@ -1,50 +1,50 @@
-**繁體中文** | [English](README_EN.md)
+**English** | [繁體中文](README_ZH-TW.md)
 
-# Chao Chien Wang｜資料分析・商業分析
+# Chao Chien Wang | Data & Business Analyst
 
-資料分析／商業分析工作者，具製造、供應鏈與財務風險管理實務。能從使用者需求釐清與作業流程理解出發，運用 Python、SQL、Power BI 及 Power Platform 完成跨系統資料整合、流程自動化與管理報表。代表成果包括每月處理約 **1.5 億美元**外匯風險，以及支援超過 **50 種原料、每月約新台幣 10 億元**成本規模的管理系統。
+Data and business analyst with hands-on experience in manufacturing, supply chain, and financial risk management. I translate business requirements and operating processes into cross-system data pipelines, automated workflows, and management reporting using Python, SQL, Power BI, and Microsoft Power Platform. Selected work includes systems supporting approximately **USD 150 million in monthly FX exposure** and more than **50 raw materials with a monthly cost base of approximately NT$1 billion**.
 
-## 核心能力
+## Core Skills
 
-- **業務分析：** 使用者需求釐清、指標與規則定義、流程理解、跨部門協作
-- **資料分析：** Python、SQL、資料清理、資料建模
-- **視覺化與自動化：** Power BI、Power Automate、Power Apps
-- **領域經驗：** 製造、原料供應鏈、成本控制、外匯風險
+- **Business analysis:** stakeholder interviews, process mapping, business rule definition, cross-functional coordination
+- **Data analytics:** Python, SQL, data cleansing, data modeling
+- **Visualization and automation:** Power BI, Power Automate, Power Apps
+- **Domain experience:** manufacturing, raw-material supply chain, cost control, foreign exchange risk
 
-## 精選專案
+## Selected Projects
 
-### 1. [BOM 智慧運算與管理平台](https://github.com/ChienChienChien/BOM_Management_Platform)
+### 1. [FX Risk Position Automation](https://github.com/ChienChienChien/FX_Hedging_Automation)
 
-整合 BOM 參數、運算、版本及發布流程，保留每次運算的輸入條件與結果，提升作業穩定性及可追溯性。
+Standardized and automated the creation, adjustment, and settlement of FX positions based on sales, procurement, invoicing, and exchange-rate data.
 
-- BOM1 每週更新；BOM2 由現場即時觸發
-- 串接參數管理、簽核、驗證、發布與下游應用
-- 2023 年底上線，持續維運與改版
+- Supports approximately **USD 150 million in FX exposure per month**
+- Standardizes risk recognition, exchange-rate selection, and settlement rules across functions
+- Led requirements analysis, rule design, data integration, and workflow development
 
-### 2. [原料進耗存預測與庫存告警系統](https://github.com/ChienChienChien/Material_Forecasting_System)
+### 2. [Raw Material Inventory Forecasting and Alerts](https://github.com/ChienChienChien/Material_Forecasting_System)
 
-整合庫存、採購、BOM 與生產計畫，逐日推估未來三個月庫存，提前辨識缺料風險。
+Combines inventory, procurement, BOM, and production-plan data to forecast daily inventory for the next three months and identify potential shortages.
 
-- 管理超過 **50 種原料**，每月成本規模約 **新台幣 10 億元**
-- 以 Power BI 呈現庫存趨勢、風險清單及日別明細
-- 透過 Teams 每日推送分級告警
+- Covers more than **50 raw materials** with a monthly cost base of approximately **NT$1 billion**
+- Uses Power BI to present inventory trends, risk lists, and daily details
+- Sends tiered alerts to Teams each day
 
-### 3. [製造資料品質監控平台](https://github.com/ChienChienChien/Manufacturing_Data_Quality_Monitoring)
+### 3. [Bill of Materials (BOM) Planning and Governance Platform](https://github.com/ChienChienChien/BOM_Management_Platform)
 
-每日檢查 BOM 使用的關鍵資料表，在運算前辨識空表、欄位缺漏及更新延遲。
+Integrates BOM parameters, calculation, version control, and publishing while retaining the inputs and outputs of each run for auditability.
 
-- 監控 **8 張關鍵資料表**
-- 以 Power BI 呈現結果，異常由 Power Automate 推送至 Teams
-- 曾於運算前發現空表並協助排除；資料改接 MES 後逐步退場
+- Runs BOM1 weekly and triggers BOM2 in real time from shop-floor operations
+- Connects parameter maintenance, approval, validation, publishing, and downstream use
+- In production since late 2023, with ongoing enhancement and maintenance
 
-### 4. [外匯風險自動拋轉系統](https://github.com/ChienChienChien/FX_Hedging_Automation)
+### 4. [Manufacturing Data Quality Monitoring](https://github.com/ChienChienChien/Manufacturing_Data_Quality_Monitoring)
 
-整合銷售、採購、發票與匯率資料，依合約異動及立帳結果，自動建立、調整與結清外匯部位。
+Checks critical BOM input tables each day to detect empty tables, missing fields, and late updates before calculation.
 
-- 每月處理約 **1.5 億美元**外匯風險
-- 統一跨部門風險認定、匯率及結清規則
-- 負責需求分析、規則設計、資料整合與流程開發
+- Monitors **8 critical data tables**
+- Presents results in Power BI and sends exceptions to Teams through Power Automate
+- Detected an empty source table before calculation; the platform is being phased out as data access moves directly to MES
 
 ---
 
-本作品集僅呈現去識別化的專案說明與架構，不含公司原始資料、連線資訊及未處理的內部程式碼。
+This portfolio presents de-identified project descriptions and architecture only. It does not include proprietary company data, connection details, or unredacted internal code.
