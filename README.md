@@ -2,7 +2,7 @@
 
 # Chao Chien Wang | Data & Business Analyst
 
-Data and business analyst with hands-on experience in manufacturing, supply chain, and financial risk management. I translate business needs and operating processes into cross-system data pipelines, automated workflows, and management reporting using Python, SQL, Power BI, and Microsoft Power Platform. Selected work includes systems supporting approximately **USD 150 million in monthly FX exposure** and more than **50 raw materials with a monthly cost base of approximately NT$1 billion**.
+Data and business analyst with hands-on experience in manufacturing, supply chain, and financial risk management. I translate business needs and operating processes into cross-system data pipelines, automated workflows, and management reporting using Python, SQL, Power BI, and Microsoft Power Platform. Selected work includes systems processing approximately **USD 100 million in FX-related transaction value per month through automated posting** and more than **50 raw materials with a monthly cost base of approximately NT$1 billion**.
 
 ## Core Skills
 
@@ -41,7 +41,7 @@ Checks critical BOM input tables each day to detect empty tables, missing fields
 
 Standardized and automated the creation, adjustment, and settlement of FX positions based on sales, procurement, invoicing, and exchange-rate data.
 
-- Supports approximately **USD 150 million in FX exposure per month**
+- Processes approximately **USD 100 million in FX-related transaction value per month** through automated posting
 - Standardizes risk recognition, exchange-rate selection, and settlement rules across functions
 - Clarified user and operational needs, defined business rules, integrated data, and developed workflows
 
