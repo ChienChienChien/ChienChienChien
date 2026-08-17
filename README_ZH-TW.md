@@ -21,7 +21,7 @@
 
 以下專案涵蓋製造、供應鏈、資料治理與財務風險管理，呈現如何從營運需求出發，完成流程分析、資料整合、規則設計、系統落地與決策支援。各專案的業務背景、系統架構及實作細節，可透過連結進一步查看。
 
-### 1. [將分析模型落地為營運平台｜BOM Management Platform](https://github.com/ChienChienChien/BOM_Management_Platform/blob/main/README_ZH-TW.md)
+### 1. [最低成本 BOM 資料與決策平台](https://github.com/ChienChienChien/BOM_Management_Platform/blob/main/README_ZH-TW.md)
 
 將最低成本 BOM 模型所需的資料、規則與使用流程整合為可持續運作的決策平台，使模型成果能實際支援原料規劃與現場生產。
 
@@ -31,7 +31,7 @@
 
 > 最低成本 BOM 核心模型、原料價格計算與成本管理由團隊其他成員負責；本案例聚焦於資料治理、流程設計、系統整合及模型落地。
 
-### 2. [將供需資料轉化為前瞻性決策資訊｜原料庫存推估與告警系統](https://github.com/ChienChienChien/Material_Forecasting_System/blob/master/README_ZH-TW.md)
+### 2. [原料庫存推估與告警系統](https://github.com/ChienChienChien/Material_Forecasting_System/blob/master/README_ZH-TW.md)
 
 整合分散於不同系統的供需資料，建立未來庫存推估與風險預警機制，協助相關單位提前辨識缺料風險並採取行動。
 
@@ -39,7 +39,7 @@
 - **業務指標與預警設計：** 依原料實際檢驗、放行及投料條件設計庫存指標與分級預警邏輯，呈現預計缺料日期、風險程度及形成原因。
 - **流程自動化與決策支援：** 將原本每週約 **3 小時**的人工整理流程，轉為每日自動推估、Power BI 視覺化及 Teams 主動告警，支援超過 **50 種原料**的供需管理。
 
-### 3. [建立可持續擴充的資料品質管理機制｜資料品質監控平台](https://github.com/ChienChienChien/Manufacturing_Data_Quality_Monitoring/blob/main/README_ZH-TW.md)
+### 3. [資料品質監控平台](https://github.com/ChienChienChien/Manufacturing_Data_Quality_Monitoring/blob/main/README_ZH-TW.md)
 
 在資料進入報表、分析模型與營運決策前建立品質防線，建立系統主動發現、通知與追蹤。
 
@@ -47,7 +47,7 @@
 - **監控流程自動化：** 使用 Python 與 Great Expectations 執行每日檢核，並整合 SQL Server、Power BI、Power Automate 與 Teams，形成從檢測到通知的完整流程。
 - **分析治理與可追溯性：** 集中保存檢核摘要、規則明細及歷史結果，協助快速定位異常、追蹤品質變化，並可擴充至不同資料來源與分析流程。
 
-### 4. [將複雜業務規則轉化為穩定交易流程｜立帳前外匯風險自動拋轉系統](https://github.com/ChienChienChien/FX_Hedging_Automation/blob/main/README_ZH-TW.md)
+### 4. [立帳前外匯風險自動拋轉系統](https://github.com/ChienChienChien/FX_Hedging_Automation/blob/main/README_ZH-TW.md)
 
 將外匯風險管理時點由應收、應付帳款立帳日向前延伸至外幣交易成立日，讓立帳前已形成的匯率風險可被捕捉並透過內部交易方式集中管理。
 
