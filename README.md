@@ -2,9 +2,9 @@
 
 # Kane Wang | Data & Business Analyst
 
-> Specializing in data and business analysis across manufacturing, supply chain, and financial risk management
+> Data and business analysis for manufacturing, supply chain, and financial risk management
 
-Specializes in turning operational challenges and decision needs into practical data and system solutions—aligning stakeholders on data definitions, business rules, and ownership, then using Python, SQL, Power BI, and Microsoft Power Platform to build governed, traceable data and decision platforms for sustained operational use.
+Turns operational challenges and decision needs into practical data and system solutions by aligning stakeholders on data definitions, business rules, and ownership, then using Python, SQL, Power BI, and Microsoft Power Platform to build governed, traceable data platforms and decision-support systems for sustained operational use.
 
 Experience spans the full delivery lifecycle, from requirements discovery and process and data design through system integration, testing, deployment, production support, and continuous improvement. The focus is not simply on producing analysis, but on embedding it into day-to-day operations and decision-making.
 
@@ -14,7 +14,7 @@ Selected work includes a minimum-cost BOM platform and an inventory forecasting 
 
 - **Business and Process Analysis:** Breaks down operational needs, current workflows, decision scenarios, business rules, and cross-functional responsibilities, then translates them into clear, actionable requirements for analytics and systems.
 - **Data Analytics and Governance:** Uses Python and SQL to integrate data across systems, clean and transform datasets, define metrics, and implement analytical models. Establishes shared definitions, clear ownership for source data and ongoing maintenance, and version control so outputs remain reliable, traceable, and reproducible.
-- **Digital Solution Delivery:** Connects enterprise systems, analytical models, and downstream applications through Power BI, Power Automate, Power Apps, Teams, and Flask APIs. Delivers production-ready automated workflows and proactive alerts, covering testing, deployment, exception handling, and ongoing support so analysis becomes part of everyday operations and decisions.
+- **Digital Solution Delivery:** Integrates enterprise systems, analytical models, and downstream applications using Power BI, Power Automate, Power Apps, Teams, and Flask APIs. Delivers production-ready automated workflows and proactive alerts, covering testing, deployment, exception handling, and ongoing support so analysis becomes part of everyday operations and decisions.
 - **Domain Expertise:** Manufacturing operations, raw material supply chains, cost management, data quality, and foreign exchange risk management.
 
 ## Selected Projects
@@ -23,7 +23,7 @@ The projects below show how operational needs were translated into data foundati
 
 ### 1. [Minimum-Cost BOM Decision Platform](https://github.com/ChienChienChien/BOM_Management_Platform)
 
-Brings together the data, rules, and operating workflows required to run a minimum-cost BOM model as a production decision platform, supporting both raw material planning and shop-floor execution.
+Brings together the data, business rules, and operating workflows needed to turn a minimum-cost BOM model into a production decision platform for raw material planning and shop-floor execution.
 
 - **Data Governance and Cross-Functional Alignment:** Brings together cross-functional inputs—including raw material constraints, composition data, pricing, and production plans—and establishes shared definitions, ownership, and validation procedures.
 - **Model Deployment and System Integration:** Integrates the minimum-cost BOM model into existing workflows for raw material planning and real-time calculations initiated through MES, while preserving input versions and run results for traceability.
@@ -36,7 +36,7 @@ Brings together the data, rules, and operating workflows required to run a minim
 Combines supply and demand data from multiple systems to project future inventory levels and flag shortage risks early enough for teams to act.
 
 - **Supply Chain Data Integration:** Brings together inventory, purchase orders, inbound deliveries, production plans, and raw material requirements. Data from different systems and time intervals is standardized into a daily supply-and-demand view.
-- **Business Metrics and Alert Design:** Defines inventory metrics and tiered alerts around actual inspection, release, and consumption conditions, showing when a shortage is expected, how severe it is, and what is driving it.
+- **Business Metrics and Alert Design:** Defines inventory metrics and tiered alerts that reflect actual inspection, release, and consumption conditions, showing when a shortage is expected, how severe it is, and what is driving it.
 - **Workflow Automation and Decision Support:** Replaces roughly **three hours of manual preparation each week** with daily automated forecasts, Power BI dashboards, and proactive Teams alerts, supporting supply-and-demand planning for more than **50 raw materials**.
 
 ### 3. [Data Quality Monitoring Platform](https://github.com/ChienChienChien/Manufacturing_Data_Quality_Monitoring)
