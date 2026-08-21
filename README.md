@@ -12,7 +12,7 @@ Selected work includes the Lowest-Cost BOM Data and Decision Platform and the Ra
 
 ## Core Capabilities
 
-- **Business and Process Analysis:** Breaks down operational needs, current workflows, decision scenarios, business rules, and cross-functional responsibilities, then translates them into clear, actionable requirements for analytics and systems.
+- **Business Process Analysis:** Breaks down operational needs, current workflows, decision scenarios, business rules, and cross-functional responsibilities, then translates them into clear, actionable requirements for analytics and systems.
 - **Data Analytics and Governance:** Uses Python and SQL to integrate data across systems, clean and transform datasets, define metrics, and implement analytical models. Establishes shared data definitions, sources, ownership, validation methods, and version controls so results remain reliable, traceable, and reproducible.
 - **Digital Solution Delivery:** Integrates enterprise systems, analytical models, and downstream applications using Power BI, Power Automate, Power Apps, Teams, and Flask APIs. Delivers production-ready automated workflows and proactive alerts, covering testing, deployment, exception handling, and ongoing support so data and analysis become part of daily operations and decision-making.
 - **Domain Expertise:** Manufacturing operations, raw material supply chains, cost management, data quality, and foreign exchange risk management.
