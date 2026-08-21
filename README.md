@@ -21,12 +21,12 @@ Representative projects include minimum-cost BOM and inventory decision platform
 
 These projects span manufacturing, supply chain, data governance, and financial risk management. Together, they demonstrate how operational needs can be translated into process analysis, data integration, rule design, system implementation, and decision support. Follow each link for the business context, system architecture, and implementation details.
 
-### 1. [Minimum-Cost BOM Data and Decision Platform](https://github.com/ChienChienChien/BOM_Management_Platform)
+### 1. [Lowest-Cost BOM Data and Decision Platform](https://github.com/ChienChienChien/BOM_Management_Platform)
 
-Integrates the data, rules, and operating workflows required by a minimum-cost BOM model into a sustainable decision platform, enabling model outputs to support raw material planning and shop-floor production.
+Integrates the data, rules, and operating workflows required by a lowest-cost BOM model into a sustainable decision platform, enabling model outputs to support raw material planning and shop-floor production.
 
-- **Data Governance and Cross-Functional Collaboration:** Integrates cross-functional data—including raw material constraints, composition, pricing, and production plans—and establishes consistent definitions, ownership, and validation workflows.
-- **Model Operationalization and System Integration:** Embeds analytical models into existing operational processes to support both raw material planning and real-time MES calculations, while retaining input versions and execution results for traceability.
+- **Data Governance and Cross-Functional Collaboration:** Integrates cross-functional data—including raw material constraints,raw material composition,raw material price, and production plans—and establishes consistent definitions, ownership, and validation workflows.
+- **Model Operationalization and System Integration:** Embeds the lowest-cost BOM model into existing operational processes to support both raw material planning and real-time calculations for MES, while retaining input versions and execution results for traceability.
 - **Decision Support and Outcome Validation:** Uses Power BI to compare theoretical BOM results with actual material consumption, creating a validation and continuous-improvement mechanism. The platform supports more than **50 raw materials** and approximately **NT$1 billion in monthly raw material costs**.
 
 > The core minimum-cost BOM model, raw material price calculations, and cost management were owned by other team members. This case focuses on data governance, process design, system integration, and model operationalization.
