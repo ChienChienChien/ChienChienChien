@@ -8,52 +8,52 @@ Turns operational challenges and decision needs into practical data and system s
 
 Experience spans the full delivery lifecycle, from requirements discovery and process and data design through system integration, testing, deployment, production support, and continuous improvement. The focus is not simply on producing analysis, but on embedding it into day-to-day operations and decision-making.
 
-Selected work includes a minimum-cost BOM platform and an inventory forecasting system supporting more than **50 raw materials** and approximately **NT$1 billion in monthly material spend**. It also includes an FX risk management system that captures exposures before accounting recognition, handles approximately **USD 100 million in internal FX transactions each month**, and has run reliably for more than four years.
+Selected work includes the Lowest-Cost BOM Data and Decision Platform and the Raw Material Inventory Forecasting and Stockout Alert System, which together support more than **50 raw materials representing approximately NT$1 billion in monthly material costs**. It also includes a pre-recognition FX exposure management solution that processes approximately **USD 100 million in internal FX transaction volume per month** and has operated reliably in production for more than four years.
 
 ## Core Capabilities
 
 - **Business and Process Analysis:** Breaks down operational needs, current workflows, decision scenarios, business rules, and cross-functional responsibilities, then translates them into clear, actionable requirements for analytics and systems.
-- **Data Analytics and Governance:** Uses Python and SQL to integrate data across systems, clean and transform datasets, define metrics, and implement analytical models. Establishes shared definitions, clear ownership for source data and ongoing maintenance, and version control so outputs remain reliable, traceable, and reproducible.
-- **Digital Solution Delivery:** Integrates enterprise systems, analytical models, and downstream applications using Power BI, Power Automate, Power Apps, Teams, and Flask APIs. Delivers production-ready automated workflows and proactive alerts, covering testing, deployment, exception handling, and ongoing support so analysis becomes part of everyday operations and decisions.
+- **Data Analytics and Governance:** Uses Python and SQL to integrate data across systems, clean and transform datasets, define metrics, and implement analytical models. Establishes shared data definitions, sources, ownership, validation methods, and version controls so results remain reliable, traceable, and reproducible.
+- **Digital Solution Delivery:** Integrates enterprise systems, analytical models, and downstream applications using Power BI, Power Automate, Power Apps, Teams, and Flask APIs. Delivers production-ready automated workflows and proactive alerts, covering testing, deployment, exception handling, and ongoing support so data and analysis become part of daily operations and decision-making.
 - **Domain Expertise:** Manufacturing operations, raw material supply chains, cost management, data quality, and foreign exchange risk management.
 
 ## Selected Projects
 
-The projects below show how operational needs were translated into data foundations, business rules, integrated workflows, and decision-support tools across manufacturing, supply chain, data governance, and financial risk management. Each project page provides additional context, architecture, and implementation details.
+The projects below show how operational needs were translated into shared data foundations, business rules, cross-system workflows, and decision-support tools across manufacturing, supply chain, data governance, and financial risk management. Each project page provides additional context, architecture, and implementation details.
 
-### 1. [Minimum-Cost BOM Decision Platform](https://github.com/ChienChienChien/BOM_Management_Platform)
+### 1. [Lowest-Cost BOM Data and Decision Platform](https://github.com/ChienChienChien/BOM_Management_Platform/blob/main/README.md)
 
-Brings together the data, business rules, and operating workflows needed to turn a minimum-cost BOM model into a production decision platform for raw material planning and shop-floor execution.
+Brings together the cross-functional data, business rules, and usage workflows required by the lowest-cost BOM model in a governed, traceable operations platform that supports both raw material planning and real-time shop-floor production.
 
-- **Data Governance and Cross-Functional Alignment:** Brings together cross-functional inputs—including raw material constraints, composition data, pricing, and production plans—and establishes shared definitions, ownership, and validation procedures.
-- **Model Deployment and System Integration:** Integrates the minimum-cost BOM model into existing workflows for raw material planning and real-time calculations initiated through MES, while preserving input versions and run results for traceability.
-- **Decision Support and Performance Validation:** Uses Power BI to compare theoretical BOM recommendations with actual material consumption, creating a feedback loop for validation and continuous improvement. The platform covers more than **50 raw materials** and approximately **NT$1 billion in monthly material costs**.
+- **Data Governance and Cross-Functional Collaboration:** Standardizes the definitions, sources, ownership, and validation methods for raw material quantity limits, raw material composition, raw material prices, and production plans.
+- **Model Deployment and System Integration:** Deploys the lowest-cost BOM model across weekly planning and real-time shop-floor production, while linking each run's input versions and BOM output through a unique run key for traceability.
+- **Decision Support and Validation:** Uses Power BI to track changes in raw-material demand and compare theoretical BOMs with actual material usage, supporting validation and continuous improvement. The platform supports more than **50 raw materials representing approximately NT$1 billion in monthly material costs**.
 
-> The minimum-cost BOM model itself, raw material price calculations, and cost management were handled by other team members. This case focuses on data governance, process design, system integration, and putting the model into production.
+> The core lowest-cost BOM model, raw material price calculations, and cost management were handled by other members of the team. This case focuses on data governance, process design, system integration, and model deployment.
 
-### 2. [Raw Material Inventory Forecasting and Alert System](https://github.com/ChienChienChien/Material_Forecasting_System)
+### 2. [Raw Material Inventory Forecasting and Stockout Alert System](https://github.com/ChienChienChien/Material_Forecasting_System/blob/master/README.md)
 
-Combines supply and demand data from multiple systems to project future inventory levels and flag shortage risks early enough for teams to act.
+Integrates data across systems to produce daily raw-material inventory forecasts, identify stockout risks early, and support timely response actions.
 
-- **Supply Chain Data Integration:** Brings together inventory, purchase orders, inbound deliveries, production plans, and raw material requirements. Data from different systems and time intervals is standardized into a daily supply-and-demand view.
-- **Business Metrics and Alert Design:** Defines inventory metrics and tiered alerts that reflect actual inspection, release, and consumption conditions, showing when a shortage is expected, how severe it is, and what is driving it.
-- **Workflow Automation and Decision Support:** Replaces roughly **three hours of manual preparation each week** with daily automated forecasts, Power BI dashboards, and proactive Teams alerts, supporting supply-and-demand planning for more than **50 raw materials**.
+- **Supply Chain Data Integration:** Combines inventory, purchase orders, inbound receipts, production plans, and BOM data in a daily supply-and-demand forecast for the next three months.
+- **Management Metrics and Tiered Alerts:** Uses Total Inventory and Available Inventory to distinguish recorded stock from material that has been released for production, and classifies risk based on expected stockout dates.
+- **Daily Automated Monitoring and Decision Support:** Replaces approximately **three hours of manual data consolidation and inventory forecasting each week** with daily data refreshes, rolling forecasts, Power BI dashboards, and Teams alerts. The system covers more than **50 raw materials representing approximately NT$1 billion in monthly material costs**.
 
-### 3. [Data Quality Monitoring Platform](https://github.com/ChienChienChien/Manufacturing_Data_Quality_Monitoring)
+### 3. [Data Quality Monitoring Platform](https://github.com/ChienChienChien/Manufacturing_Data_Quality_Monitoring/blob/main/README.md)
 
-Adds a control layer before data reaches reports, analytical models, or operational decisions, allowing quality issues to be detected, communicated, and tracked proactively.
+Implements an automated monitoring and alerting framework that validates data freshness, completeness, and schema integrity before data moves from the data warehouse into downstream reports, analytical models, and decision-making workflows.
 
-- **Data Quality Rule Design:** Defines executable checks for data timeliness, completeness, and basic structure based on downstream analytical needs.
-- **Automated Monitoring Workflow:** Runs daily checks with Python and Great Expectations, connecting SQL Server, Power BI, Power Automate, and Teams in an end-to-end detection and notification workflow.
-- **Analytics Governance and Traceability:** Stores validation summaries, rule-level results, and historical runs in one place, making it easier to diagnose issues, monitor quality trends, and extend the framework to additional data sources and analytical workflows.
+- **Data Quality Rule Design:** Defines executable checks for data freshness, completeness, and schema integrity based on downstream analytical requirements.
+- **Automated Daily Validation and Alerts:** Runs daily checks with Python and Great Expectations, writes validation summaries and rule-level details to SQL Server, refreshes monitoring in Power BI, and sends anomaly notifications through Power Automate and Teams.
+- **Centralized Monitoring and Traceability:** Stores validation summaries, rule-level details, and historical records centrally, making it easier to identify affected tables and failed rules, monitor data quality over time, and extend the framework to additional data sources and analytical workflows.
 
-### 4. [Automated FX Risk Transfer for Pre-Recognition Exposures](https://github.com/ChienChienChien/FX_Hedging_Automation)
+### 4. [Pre-Recognition FX Exposure Management via Automated Internal FX Transactions](https://github.com/ChienChienChien/FX_Hedging_Automation/blob/main/README.md)
 
-Extends FX risk management upstream from the recognition of accounts receivable and payable to the point when a foreign-currency sale or purchase is committed. This allows exposures that arise before accounting recognition to be captured and transferred to central risk management through internal trades.
+Shifts the start of FX exposure management upstream—from A/R and A/P recognition to the confirmation of foreign-currency sales contracts and purchase commitments—so that pre-recognition exposures can be captured and centrally managed through standardized internal FX transactions.
 
-- **Financial Process and Trade Lifecycle Analysis:** Combines sales, purchasing, receivables and payables recognition, and exchange-rate data, translating business events into traceable FX positions and standardized internal trades.
-- **Business Rule Automation and System Integration:** Implements rules for trade creation, amendment, reversal, and maturity, then feeds the resulting positions into position and risk management processes. Manual work is reserved for exceptions.
-- **Operational Scale and Reliability:** Handles approximately **USD 100 million in internal FX trades each month** and has run reliably in production for more than four years. The system transfers risk internally; the risk management team independently decides whether, when, and how to hedge externally.
+- **Risk Management Rules and Exposure Lifecycle:** Defines risk ownership, exposure management periods, applicable currencies, and exchange-rate conventions, then converts them into consistent data rules and transaction logic for internal FX transfers.
+- **Business-Event Detection and Downstream Integration:** Integrates sales, procurement, A/R and A/P recognition, exchange-rate, and existing-position data to detect exposure inception, amount adjustments, cancellations, and close-out upon accounting recognition. Generated transactions are posted to PAS and RMD, with manual intervention limited to exceptions.
+- **Operational Scale and Risk Governance:** Processes approximately **USD 100 million in internal FX transaction volume per month** across sales and procurement and has operated reliably in production for more than four years. Any decision to hedge externally—including whether, when, and how—is made independently by the risk management function and remains outside the system's scope.
 
 ---
 
